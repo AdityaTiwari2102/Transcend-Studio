@@ -1,12 +1,13 @@
 @media only screen and (max-width: 400px) {
   html {
-    font-size: 9.411764705882353px;
+    font-size: 10px;
   }
 }
 
 html, body {
   height: 100%;
   font-family: "metropolis-regular", sans-serif;
+  margin: 0;
 }
 
 /* Header Style */
@@ -151,7 +152,6 @@ html, body {
   color: #ffffff;
   position: relative;
   bottom: 8rem;
-  left: 1rem;
 }
 .home-follow a {
   text-decoration: none;
@@ -231,7 +231,7 @@ html, body {
 /*About */
 
 .about-main {
-  padding: 10rem 5rem;
+  padding: 5rem;
   line-height: 1.2;
   background-color: #ffffff;
   position: relative;
@@ -334,7 +334,7 @@ p.subhead-decs {
 
 /*Service Style*/
 .service-main {
-  padding: 10rem 5.5rem;
+  padding: 5rem;
   line-height: 1.2;
   background-color: #f4f4f4;
   position: relative;
@@ -370,8 +370,8 @@ p.subhead-decs {
 }
 
 /*Works Style*/
-.work-main{
-  padding: 10rem 5.5rem;
+.work-main {
+  padding: 5rem;
   line-height: 1.2;
   background-color: #ffffff;
   position: relative;
@@ -400,7 +400,7 @@ p.subhead-decs {
 }
 
 /*Testimonial Style*/
-.testimonial-header{
+.testimonial-header {
   text-align: center;
   margin-top: 2rem;
 }
@@ -412,7 +412,7 @@ p.subhead-decs {
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   position: relative;
 }
-.testimonial p{
+.testimonial p {
   font-size: 1.4rem;
   line-height: 1.5;
 }
@@ -491,7 +491,7 @@ p.subhead-decs {
 }
 
 /* Stats Style */
-.stats-main{
+.stats-main {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding:4.2rem;
@@ -523,7 +523,7 @@ p.subhead-decs {
   left: 42.5%;
   margin-left: -50px;
 }
-.stats-type{
+.stats-type {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 1rem;
@@ -543,7 +543,7 @@ p.subhead-decs {
 
 /* Contact Us Style */
 .contact-main {
-  padding: 10rem 5.5rem 5rem 5.5rem;
+  padding: 5rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
   position: relative;
